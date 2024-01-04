@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include big_bash_event2024 *.css
+recursive-include big_bash_event2024 *.csv
+recursive-include big_bash_event2024 *.html
+recursive-include big_bash_event2024 *.ico
+recursive-include big_bash_event2024 *.js
+recursive-include big_bash_event2024 *.json
+recursive-include big_bash_event2024 *.md
+recursive-include big_bash_event2024 *.png
+recursive-include big_bash_event2024 *.py
+recursive-include big_bash_event2024 *.svg
+recursive-include big_bash_event2024 *.txt
+recursive-exclude big_bash_event2024 *.pyc
