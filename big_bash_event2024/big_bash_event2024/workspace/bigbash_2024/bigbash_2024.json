@@ -1,0 +1,116 @@
+{
+ "charts": [
+  {
+   "chart_name": "City Wise Registration Details",
+   "label": "TLC Member Registrations"
+  }
+ ],
+ "content": "[{\"id\":\"yTH_cEW-aA\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">BIGBASH-2024</span>\",\"col\":12}},{\"id\":\"_IukxoPcu0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"TLC Member Registration\",\"col\":3}},{\"id\":\"xyIrjRLxw2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Kaladalan Registration\",\"col\":3}},{\"id\":\"gkIasMOyaU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bazar Exhibitor Registration\",\"col\":3}},{\"id\":\"1A1mveBwnc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Registration Dashboard\",\"col\":3}},{\"id\":\"kslUW7pCEW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Advertise Hoarding Form\",\"col\":12}},{\"id\":\"7GZp5c5Tkx\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Kaladalan Registrations\",\"col\":4}},{\"id\":\"UeHBeaja96\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Bazar Registrations\",\"col\":4}},{\"id\":\"W_XX9pNiJl\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TLC Member Registrations\",\"col\":4}},{\"id\":\"shEjd-3Z5_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Advertise Hoardings\",\"col\":4}},{\"id\":\"TYfqIP8ToM\",\"type\":\"card\",\"data\":{\"card_name\":\"Report\",\"col\":4}},{\"id\":\"eBIAYL_ttj\",\"type\":\"chart\",\"data\":{\"chart_name\":\"TLC Member Registrations\",\"col\":12}}]",
+ "creation": "2024-01-07 17:33:01.345448",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-energy-points",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "BigBash-2024",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Report",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "TLC Member Registration",
+   "link_count": 0,
+   "link_to": "TLC Member Registration Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-01-26 12:46:42.314116",
+ "modified_by": "Administrator",
+ "module": "Big Bash Event2024",
+ "name": "BigBash-2024",
+ "number_cards": [
+  {
+   "label": "Advertise Hoardings",
+   "number_card_name": "Advertise Hoarding Form"
+  },
+  {
+   "label": "TLC Member Registrations",
+   "number_card_name": "TLC Member Registrations"
+  },
+  {
+   "label": "Bazar Registrations",
+   "number_card_name": "Bazar Registrations"
+  },
+  {
+   "label": "Kaladalan Registrations",
+   "number_card_name": "Kaladalan Registrations"
+  }
+ ],
+ "owner": "rakesh.chougule@erpdata.in",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Registration & Admin Head"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "TLC Member Registration",
+   "link_to": "TLC Member Registration",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bazar Exhibitor Registration",
+   "link_to": "Bazar Exhibitor Registration",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Advertise Hoarding Form",
+   "link_to": "Advertise Hoarding Form",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Kaladalan Registration",
+   "link_to": "Kaladalan Registration",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Registration Dashboard",
+   "link_to": "Big Bash 2024",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "BigBash-2024"
+}

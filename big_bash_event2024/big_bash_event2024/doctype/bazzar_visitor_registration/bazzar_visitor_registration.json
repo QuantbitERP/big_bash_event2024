@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-18 13:03:23.231710",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "email",
+  "whatsapp_mobile_number",
+  "address__city",
+  "organization_name",
+  "company_domain",
+  "organization_website",
+  "qr_code",
+  "qr_image",
+  "registration_date",
+  "pdf_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "whatsapp_mobile_number",
+   "fieldtype": "Data",
+   "label": "WhatsApp Mobile Number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "address__city",
+   "fieldtype": "Data",
+   "label": "Address / City"
+  },
+  {
+   "fieldname": "organization_name",
+   "fieldtype": "Data",
+   "label": "Organization Name"
+  },
+  {
+   "fieldname": "company_domain",
+   "fieldtype": "Select",
+   "label": "Company Domain",
+   "options": "Trading\nMechanical Manufacturing\nFood industry\nConstruction & Real Estate\nElectronics Manufacturing\nHealthcare\nLogistics & Transport\nAgriculture\nRetail\nChemical\nConstruction Material Manufacturing\nHotel & Hospitality industry\nAutomotive industry\nTextile\nComputer Hardware\nComputer Software\nEducation\nOther Manufacturing\nOther Services\nFinancial services\nBiotechnology\nMining\nEnergy industry\nServices\nManufacturing\nOther"
+  },
+  {
+   "fieldname": "organization_website",
+   "fieldtype": "Data",
+   "label": "Organization Website"
+  },
+  {
+   "fieldname": "qr_code",
+   "fieldtype": "Small Text",
+   "label": "QR Code"
+  },
+  {
+   "fieldname": "qr_image",
+   "fieldtype": "Image",
+   "label": "QR Image",
+   "options": "qr_code"
+  },
+  {
+   "default": "Today",
+   "fieldname": "registration_date",
+   "fieldtype": "Date",
+   "label": "Registration Date"
+  },
+  {
+   "fieldname": "pdf_name",
+   "fieldtype": "Data",
+   "label": "PDF Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-01 13:30:17.564735",
+ "modified_by": "Administrator",
+ "module": "Big Bash Event2024",
+ "name": "Bazzar Visitor Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BigBash-2024-Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

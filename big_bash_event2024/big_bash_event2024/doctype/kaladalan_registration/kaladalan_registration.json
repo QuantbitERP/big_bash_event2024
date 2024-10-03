@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:ART{#####}",
+ "creation": "2024-01-07 17:39:18.655004",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "email",
+  "whatsapp_mobile_number",
+  "city",
+  "tlc_level",
+  "type_of_art",
+  "no_of_articles",
+  "please_mention_size_of_art_or_area_requirement_for_art_",
+  "electric_plug_point_required_",
+  "other_comment",
+  "table_or_wall"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "whatsapp_mobile_number",
+   "fieldtype": "Data",
+   "label": "WhatsApp Mobile Number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Select",
+   "label": "City",
+   "options": "Sangli\nKolhapur\nPune\nNashik\nAhmednagar\nChhatrapati Sambhajinagar"
+  },
+  {
+   "fieldname": "tlc_level",
+   "fieldtype": "Select",
+   "label": "TLC Level",
+   "options": "Micro\nLC\nSLC 1\nSLC 2\nSLC 3\nTLC\nHonorary Member"
+  },
+  {
+   "fieldname": "type_of_art",
+   "fieldtype": "Select",
+   "label": "Type of Art",
+   "options": "Painting\nPhotography\nSculpture\nPoetry\nCrafts\nPainting Frame\nPhoto Frame\nOther"
+  },
+  {
+   "fieldname": "no_of_articles",
+   "fieldtype": "Int",
+   "label": "No of Articles"
+  },
+  {
+   "fieldname": "please_mention_size_of_art_or_area_requirement_for_art_",
+   "fieldtype": "Data",
+   "label": "Please mention size of art or area requirement for art ?"
+  },
+  {
+   "fieldname": "electric_plug_point_required_",
+   "fieldtype": "Select",
+   "label": "Electric Plug Point Required ?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "other_comment",
+   "fieldtype": "Small Text",
+   "label": "Other Comment"
+  },
+  {
+   "fieldname": "table_or_wall",
+   "fieldtype": "Select",
+   "label": "Whether u need table / wall to display u r art",
+   "options": "Not Required\nTable\nWall"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-09 17:36:12.734852",
+ "modified_by": "Administrator",
+ "module": "Big Bash Event2024",
+ "name": "Kaladalan Registration",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Registration & Admin Head",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "Kaladalan Head"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

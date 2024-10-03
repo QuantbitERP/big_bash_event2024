@@ -1,0 +1,242 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:TLC{#####}",
+ "creation": "2024-01-04 14:42:11.623205",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "email",
+  "company_name",
+  "whatsapp_mobile_number",
+  "city",
+  "tlc_level",
+  "gala_dinner_attend",
+  "food_choice_your_self",
+  "drink_choice_your_self",
+  "guest_gaurav_excluding_you",
+  "guest_for_gala_dinner",
+  "guest_veg_food_choice",
+  "guest_nonveg_food_choice",
+  "guest_jain_food_choice",
+  "breakfast_sun_morning",
+  "lunch_for_sun",
+  "qr_code",
+  "qr_image",
+  "tlc_member",
+  "registration_date",
+  "pdf_name",
+  "breakfast_sat_morning",
+  "lunch_for_sat",
+  "gift_voucher",
+  "mobile_no_email"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "whatsapp_mobile_number",
+   "fieldtype": "Data",
+   "label": "WhatsApp Mobile Number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Select",
+   "label": "City",
+   "options": "Sangli\nKolhapur\nPune\nNashik\nAhmednagar\nChhatrapati Sambhajinagar"
+  },
+  {
+   "fieldname": "tlc_level",
+   "fieldtype": "Select",
+   "label": "TLC Level",
+   "options": "Micro\nLC\nSLC 1\nSLC 2\nSLC 3\nTLC\nHonorary Member"
+  },
+  {
+   "fieldname": "gala_dinner_attend",
+   "fieldtype": "Select",
+   "label": "Are you attending Gala Dinner?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "food_choice_your_self",
+   "fieldtype": "Select",
+   "label": "Food Choice for yourself",
+   "options": "Not Required\nVegetarian\nJain\nNon-Veg"
+  },
+  {
+   "fieldname": "drink_choice_your_self",
+   "fieldtype": "Select",
+   "label": "Drink Choice for yourself (Drinks are paid)",
+   "options": "Not Required\nAlcohol\nCold Drink"
+  },
+  {
+   "fieldname": "guest_gaurav_excluding_you",
+   "fieldtype": "Int",
+   "label": "How many guest are expected to join with you for Gaurav excluding you?"
+  },
+  {
+   "fieldname": "guest_for_gala_dinner",
+   "fieldtype": "Int",
+   "label": "How many guest are expected to attend Gala dinner excluding you? (Guest coupons are paid)"
+  },
+  {
+   "fieldname": "guest_veg_food_choice",
+   "fieldtype": "Int",
+   "label": "Veg - Food Choice Count"
+  },
+  {
+   "fieldname": "guest_nonveg_food_choice",
+   "fieldtype": "Int",
+   "label": "Non-Veg - Food Choice Count"
+  },
+  {
+   "fieldname": "guest_jain_food_choice",
+   "fieldtype": "Int",
+   "label": "Jain - Food Choice Count"
+  },
+  {
+   "fieldname": "breakfast_sun_morning",
+   "fieldtype": "Select",
+   "label": "Are you taking breakfast on Sunday Morning?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "lunch_for_sun",
+   "fieldtype": "Select",
+   "label": "Are you taking for Sunday lunch?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "qr_code",
+   "fieldtype": "Small Text",
+   "label": "QR Code"
+  },
+  {
+   "fieldname": "qr_image",
+   "fieldtype": "Image",
+   "label": "QR Image",
+   "options": "qr_code"
+  },
+  {
+   "fieldname": "tlc_member",
+   "fieldtype": "Select",
+   "label": "TLC Member",
+   "options": "Yes\nNo"
+  },
+  {
+   "default": "Today",
+   "fieldname": "registration_date",
+   "fieldtype": "Date",
+   "label": "Registration Date"
+  },
+  {
+   "fieldname": "pdf_name",
+   "fieldtype": "Data",
+   "label": "PDF Name"
+  },
+  {
+   "fieldname": "breakfast_sat_morning",
+   "fieldtype": "Select",
+   "label": "Are you taking breakfast on Saturday Morning?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "lunch_for_sat",
+   "fieldtype": "Select",
+   "label": "Are you taking for Saturday lunch?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "gift_voucher",
+   "fieldtype": "Select",
+   "label": "Gift Voucher",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "mobile_no_email",
+   "fieldtype": "Data",
+   "label": "Mobile No Email",
+   "unique": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-27 21:36:37.962127",
+ "modified_by": "Administrator",
+ "module": "Big Bash Event2024",
+ "name": "TLC Member Registration",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Registration & Admin Head",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BigBash-2024-Admin",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "select": 1,
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

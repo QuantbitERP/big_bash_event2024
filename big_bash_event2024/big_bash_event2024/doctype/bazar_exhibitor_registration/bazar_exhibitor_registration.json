@@ -1,0 +1,256 @@
+{
+ "actions": [],
+ "autoname": "format:Exhibitor{#####}",
+ "creation": "2024-01-08 19:27:59.919400",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "email",
+  "mobile_number",
+  "company_name",
+  "company_address",
+  "pin_code",
+  "stall_contact_details",
+  "stall_contact_mobile",
+  "city",
+  "tlc_level",
+  "company_wbsite",
+  "company_logo",
+  "type_bussiness",
+  "exibitors_members",
+  "stall_numbers",
+  "dormitory_stay",
+  "bed_numbers",
+  "size_stall",
+  "stall_2_by_2",
+  "stall_2_by_2_count",
+  "stall_3_by_2",
+  "stall_3_by_2_count",
+  "stall_3_by_3",
+  "stall_3_by_3_count",
+  "stall_3_by_3_primium",
+  "stall_3_by_3_primium_count",
+  "open_stall",
+  "open_stall_count",
+  "special_req_stall",
+  "do_you_need_material_lifting_arrangement",
+  "maximum_weight_of_the_machine",
+  "electric_power_connection"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "label": "WhatsApp Mobile Number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "company_address",
+   "fieldtype": "Small Text",
+   "label": "Company detail address"
+  },
+  {
+   "fieldname": "pin_code",
+   "fieldtype": "Data",
+   "label": "Pin Code"
+  },
+  {
+   "fieldname": "stall_contact_details",
+   "fieldtype": "Data",
+   "label": "Contact Name of stall Co-Ordinator"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Select",
+   "label": "City",
+   "options": "Sangli\nKolhapur\nPune\nNashik\nAhmednagar\nChhatrapati Sambhajinagar"
+  },
+  {
+   "fieldname": "tlc_level",
+   "fieldtype": "Select",
+   "label": "TLC Level",
+   "options": "Micro\nLC\nSLC 1\nSLC 2\nSLC 3\nTLC\nHonorary Member"
+  },
+  {
+   "fieldname": "company_wbsite",
+   "fieldtype": "Data",
+   "label": "Company Website"
+  },
+  {
+   "fieldname": "company_logo",
+   "fieldtype": "Attach",
+   "label": "Company Logo"
+  },
+  {
+   "fieldname": "type_bussiness",
+   "fieldtype": "Select",
+   "label": "Type of Business",
+   "options": "Trading\nMechanical Manufacturing\nFood industry\nConstruction & Real Estate\nElectronics Manufacturing\nHealthcare\nLogistics & Transport\nAgriculture\nRetail\nChemical\nConstruction Material Manufacturing\nHotel & Hospitality industry\nAutomotive industry\nTextile\nComputer Hardware\nComputer Software\nEducation\nOther Manufacturing\nOther Services\nFinancial services\nBiotechnology\nMining\nEnergy industry\nServices\nManufacturing\nOther"
+  },
+  {
+   "fieldname": "exibitors_members",
+   "fieldtype": "Int",
+   "label": "How many members are expected to join with you as a exhibitor excluding you? (Food Coupon Charges Rs. 1250 per person)"
+  },
+  {
+   "fieldname": "stall_numbers",
+   "fieldtype": "Int",
+   "label": "How many stalls are required?"
+  },
+  {
+   "fieldname": "dormitory_stay",
+   "fieldtype": "Select",
+   "label": "Do you need dormitory stay for exhibitors?",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "bed_numbers",
+   "fieldtype": "Int",
+   "label": "How many beds are required"
+  },
+  {
+   "fieldname": "size_stall",
+   "fieldtype": "HTML",
+   "label": "Which size of stall are required? (Sizes in Meter)"
+  },
+  {
+   "default": "0",
+   "fieldname": "stall_2_by_2",
+   "fieldtype": "Check",
+   "label": "2 Meter X 2 Meter - Rs. 6000"
+  },
+  {
+   "default": "0",
+   "fieldname": "stall_3_by_2",
+   "fieldtype": "Check",
+   "label": "3 Meter X 2 Meter - Rs. 8000"
+  },
+  {
+   "default": "0",
+   "fieldname": "stall_3_by_3",
+   "fieldtype": "Check",
+   "label": "3 Meter X 3 Meter - Rs. 10000"
+  },
+  {
+   "default": "0",
+   "fieldname": "stall_3_by_3_primium",
+   "fieldtype": "Check",
+   "label": "3 Meter X 3 Meter - Rs. 12000 (Premium)"
+  },
+  {
+   "default": "0",
+   "fieldname": "open_stall",
+   "fieldtype": "Check",
+   "label": "Open Stall - Rs.15000"
+  },
+  {
+   "fieldname": "special_req_stall",
+   "fieldtype": "Small Text",
+   "label": "Any additional or special requirement for stall?"
+  },
+  {
+   "fieldname": "stall_contact_mobile",
+   "fieldtype": "Data",
+   "label": "Contact Mobile No. of stall Co-Ordinator",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "do_you_need_material_lifting_arrangement",
+   "fieldtype": "Select",
+   "label": "Do you need material lifting arrangement",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "maximum_weight_of_the_machine",
+   "fieldtype": "Data",
+   "label": "Maximum weight of the machine"
+  },
+  {
+   "fieldname": "stall_2_by_2_count",
+   "fieldtype": "Int",
+   "label": "stall_2_by_2 count"
+  },
+  {
+   "fieldname": "stall_3_by_2_count",
+   "fieldtype": "Int",
+   "label": "stall_3_by_2 count"
+  },
+  {
+   "fieldname": "stall_3_by_3_count",
+   "fieldtype": "Int",
+   "label": "stall_3_by_3 count"
+  },
+  {
+   "fieldname": "stall_3_by_3_primium_count",
+   "fieldtype": "Int",
+   "label": "stall_3_by_3_primium count"
+  },
+  {
+   "fieldname": "open_stall_count",
+   "fieldtype": "Int",
+   "label": "Open stall count"
+  },
+  {
+   "fieldname": "electric_power_connection",
+   "fieldtype": "Select",
+   "label": "Electric Power Connection",
+   "options": "Not Required\nSingle Phase\n3 Phase"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-13 16:34:07.020880",
+ "modified_by": "Administrator",
+ "module": "Big Bash Event2024",
+ "name": "Bazar Exhibitor Registration",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BigBash-2024-Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

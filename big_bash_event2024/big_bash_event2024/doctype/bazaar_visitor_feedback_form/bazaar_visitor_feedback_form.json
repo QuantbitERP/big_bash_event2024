@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-18 13:09:14.685767",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "name_of_your_company",
+  "product_service_seen",
+  "feedback_exhibitors",
+  "feedback_arrangements",
+  "suggestions",
+  "interested_tlc",
+  "email",
+  "mobile_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "name_of_your_company",
+   "fieldtype": "Data",
+   "label": "Name of your company"
+  },
+  {
+   "fieldname": "product_service_seen",
+   "fieldtype": "Data",
+   "label": "Product service seen"
+  },
+  {
+   "fieldname": "feedback_exhibitors",
+   "fieldtype": "Rating",
+   "label": "feedback exhibitors"
+  },
+  {
+   "fieldname": "feedback_arrangements",
+   "fieldtype": "Rating",
+   "label": "Feedback arrangements"
+  },
+  {
+   "fieldname": "suggestions",
+   "fieldtype": "Data",
+   "label": "suggestions"
+  },
+  {
+   "fieldname": "interested_tlc",
+   "fieldtype": "Select",
+   "label": "interested tlc",
+   "options": "Yes\nNo\nNot Sure"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No",
+   "options": "Phone"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-09 15:21:35.295911",
+ "modified_by": "Administrator",
+ "module": "Big Bash Event2024",
+ "name": "Bazaar Visitor Feedback Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BigBash-2024-Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
